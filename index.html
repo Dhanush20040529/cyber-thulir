@@ -2,56 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cyber Arena</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CyberThulir</title>
+  <link rel="stylesheet" href="test.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 
-  <script type="module" src="script.js"></script>
+  <!-- AOS LINKS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
-<!-- 
-    <video autoplay muted loop class="bg-video">
-        <source src="background.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video> -->
-
-  <!-- Navigation Bar -->
+  <div class="side-img">
+      <dotlottie-player
+  src="https://lottie.host/6934bcdf-cbce-4a23-8f7e-35aed2e4dfb2/A7o6smqsJF.lottie"
+  background="transparent"
+  speed="1"
+  style="width: 150px; height: 150px"
+  loop
+  autoplay
+></dotlottie-player>
+   </div>
+   <div class="side-img2">
+     <dotlottie-player
+  src="https://lottie.host/aa889652-49c9-4abb-9b52-3ade5840a2df/1SO6FooQjv.lottie"
+  background="transparent"
+  speed="1"
+  style="width: 100px; height: 100px"
+  loop
+  autoplay
+></dotlottie-player>
+   </div>
+  
+ 
   <nav class="navbar">
-    <div class="logo-img"><img src="image/CyberThulir Logo.png" alt="logo" width="60" height="60"></div>
-    <!-- <div class="logo">CYBER THULIR</div> -->
+    <div class="logo">
+      <img src="image/CyberThulir Logo.png" alt="CyberThulir Logo" />
+      <span class="type">Cyber Thulir</span>
+    </div>
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Challenges</a></li>
-      <li><a href="#">Leaderboard</a></li>
-      <li><a href="#">Login</a></li>
-    </ul>
-    <div class="menu-icon"><p><i class="fa-solid fa-bars"></i></p></div>
-    <div class="x-icon"><p><i class="fa-solid fa-xmark"></i></p></div>
-    <ul class="mobile-navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Challenges</a></li>
-        <li><a href="#">Leaderboard</a></li>
-        <li><a href="#">Login</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#vision">Vision</a></li>
+     
     </ul>
   </nav>
 
-  <!-- Hero Section -->
-<!-- Hero Section -->
-<section class="hero">
-  <div class="content">
-    <h1><span class="typewriter-text">Level Up Your Cyber Skills</span></h1>
-    <p>Gamified Learning Meets Real-World Cybersecurity Challenges.</p>
-    <h3>Join an immersive platform where you hack, learn, and research through real-world simulations and missions</h3>
+  <header class="hero" id="home">
    
-    <a href="#" class="cta-button">Start Now</a>
-  </div>
-</section>
+    <div class="hero-container">
+      <div class="hero-img">
+        <!-- <img src="image/hero-img.jpeg" width="400" height="400" alt="cover img" data-aos="fade" data-aos-delay="00"
+                      data-aos-duration="1500"> -->
+    <dotlottie-player data-aos="flip-left"
+                      data-aos-delay="400"
+                      data-aos-duration="1500"
+                      src="https://lottie.host/1514d97c-4529-480b-9bcd-588b3f403b1e/r7HJJRkbhJ.lottie"
+                      speed="0.7"
+                      style="width: 400px; height: 400px; filter: brightness(0.75) contrast(2.2);"
+                      loop
+                      autoplay>
+    </dotlottie-player>
 
+      </div>
+      
+      <div class="hero-content" >
+        <h1 data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Transforming learners into <br> Future Cybersecurity Leaders</h1>
+      ` <p data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">Empowering learners with real-world cybersecurity skills through mentorship, innovation, and gamified learning.</p>
+      </div>
+      
+      
+    </div>
+  </header>
 
+  <section id="about" class="section about-us">
+    <div class="about-us-img">
+      <!-- <img src="image/—Pngtree—global data security personal data_7255065.png" alt="cover img" width="400" height="400"> -->
+       <dotlottie-player src="https://lottie.host/2666b0e9-7ee3-49fd-bdc2-9bff8058fa1e/qSJD8ZMcP3.lottie" background="transparent" speed="1" style="width: 400px; height: 400px" loop autoplay data-aos="fade-up-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-delay="150"
+     data-aos-duration="1000"></dotlottie-player>
+    </div>
+    <div class="content">
+
+  
+    <h2>About Us</h2>
+    <p data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+     data-aos-duration="1200">
+      CyberThulir is a bootstrapped cybersecurity startup dedicated to democratizing cybersecurity education.
+      We combine mentorship, hands-on labs, and a gamified Learning Management System (LMS) to create an engaging and impactful learning experience.
+    </p>
+    <p data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+     data-aos-duration="1200"
+     data-aos-delay="300">
+      We go beyond the basics by developing cutting-edge tools and solutions across AI, Web3, IoT, and blockchain, tackling real-world security challenges.
+      Our mission is to empower learners from all backgrounds—whether technical or non-technical—to build practical, job-ready skills in digital defense.
+    </p>
+      </div>
+  </section>
+
+  <section id="vision" class="section vision dark">
+    <div class="vision-img" 
+          data-aos="zoom-out-up"
+          data-aos-duration="1500">
+      <img src="image/vision.png" alt="img" width="400" height="400">
+    </div>
+    <div class="content">
+      <h2>Our Vision</h2>
+   <p data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="1200"
+     >At CyberThulir, our vision is to create a future where cybersecurity is understandable, accessible, and achievable for everyone. We aim to empower individuals—regardless of their technical background—to build strong cyber skills through guided mentorship, practical learning, and innovative technologies.
+    </p> 
+    <p data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="1200"
+     data-aos-delay="300">
+
+    By combining education with real-world application, we strive to solve today’s complex digital challenges and inspire the next generation of cyber defenders</p>
+    </div>
+    
+  </section>
 
 </body>
+<script>
+  AOS.init();
+</script>
 </html>
